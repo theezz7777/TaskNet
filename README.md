@@ -1,8 +1,8 @@
 # TaskNet
-
 ⚡ TaskNet – Crowdsourced Local Marketplace
 📌 Project Overview
 TaskNet is a crowdsourced local marketplace where users across Sri Lanka can connect with skilled professionals like plumbers, electricians, technicians, gardeners, and more. The platform enables users to find, hire, and rate service providers in their local area, making it easier to get tasks done efficiently.
+
 🚀 Features
 🔍 Search & Filter – Find professionals based on location, service category, and ratings.
 🛠️ Service Listings – Professionals can create detailed profiles showcasing their skills and experience.
@@ -16,11 +16,9 @@ TaskNet is a crowdsourced local marketplace where users across Sri Lanka can con
 Frontend: HTML, CSS, JavaScript
 Backend: PHP
 Database: MySQL
-Authentication:  Session-based authentication
+Authentication: Session-based authentication
 Mapping & Location: OpenStreetMap
-
 📁 Project Structure
-```
 /TaskNet
 │── client/             # Frontend code (HTML, CSS, JavaScript)
 │── server/             # Backend code (PHP, API endpoints)
@@ -34,25 +32,22 @@ Mapping & Location: OpenStreetMap
 │── services.php        # Service categories
 │── booking.php         # Appointment scheduling
 │── contact.php         # Contact and support
-```
 🚀 Getting Started
 Prerequisites
 Install XAMPP / WAMP (For running PHP and MySQL)
-
 Installation
 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/mohrashard/tasknet.git
 cd tasknet
-```
 2️⃣ Set Up Backend
+
 Start XAMPP / WAMP and run Apache & MySQL
 Import the database:
 Open phpMyAdmin
-Create a new database named `tasknet`
-Import `database/tasknet.sql`
-Configure database connection in `config.php`
-
+Create a new database named tasknet
+Import database/tasknet.sql
+Configure database connection in config.php
 🎮 Example Usage
 User Registration/Login – Customers and professionals sign up.
 Search for Services – Users enter a location and service category.
