@@ -1,4 +1,3 @@
-# TaskNet
 # ⚡ TaskNet – Crowdsourced Local Marketplace
 
 ![TaskNet](https://img.shields.io/badge/TaskNet-Local%20Marketplace-ff6b35?style=for-the-badge)
